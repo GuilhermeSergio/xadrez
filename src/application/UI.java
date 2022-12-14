@@ -6,10 +6,13 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+import boardgame.Board;
+import boardgame.Position;
 import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
 import chess.Color;
+import chess.pieces.King;
 
 public class UI {
 
