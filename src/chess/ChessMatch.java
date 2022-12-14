@@ -66,7 +66,7 @@ public class ChessMatch {
 		
 		if(testCheck(currentPlayer)) {
 			undoMove(source, target, capturedPiece);
-			throw new ChessException("Você se colocou em CHECK");
+			throw new ChessException("Voce se colocou em CHECK");
 		}
 		
 		check = (testCheck(opponent(currentPlayer))) ? true : false;
